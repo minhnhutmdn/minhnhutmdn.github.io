@@ -21,6 +21,10 @@
 	<link rel="stylesheet" href="css/main.css" id="color-switcher-link">
 	<link rel="stylesheet" href="css/animations.css">
 	<link rel="stylesheet" href="css/fonts.css">
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+	/>
 	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
 	<!--[if lt IE 9]>
@@ -59,36 +63,13 @@
 	<!-- wrappers for visual page editor and boxed version of template -->
 	<div id="canvas">
 		<div id="box_wrapper">
-
-			<!-- template sections -->
-
-			<section class="page_toplogo table_section table_section ls section_padding_20">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-4 col-sm-push-4 text-center">
-							<a href="#" class="logo">
-								<h3>LOGO</h3>
-							</a>
-						</div>
-						<div class="col-sm-4 col-sm-pull-4 text-center text-sm-left contact-teaser">
-							<span class="small-text">Call us</span>
-							<p class="yantramanov weight-black fontsize_25">+1(000) 1111 111</p>
-						</div>
-						<div class="col-sm-4 text-center text-sm-right contact-teaser">
-							<span class="small-text">Email us</span>
-							<p class="yantramanov weight-black fontsize_25 text-uppercase">contact@aba.us</p>
-						</div>
-					</div>
-				</div>
-			</section>
-
 			<header class="page_header header_color template_header table_section toggle_menu_left">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="row cs rounded header-block">
 
-								<div class="col-md-9">
+								<div class="col-md-12">
 									<!-- main nav start -->
 									<nav class="mainmenu_wrapper">
 										<ul class="mainmenu nav sf-menu">
@@ -103,25 +84,56 @@
 											<!-- services -->
 											<li>
 												<a href="#">Services</a>
+												<ul>
+													<li>
+														<a href="#">Immigration Law</a>
+													</li>
+													<li>
+														<a href="#">Business Establishment</a>
+													</li>
+													<li>
+														<a href="#">Tax Law</a>
+													</li>
+												</ul>
 											</li>
 											<!-- eof services -->
 
 											<!-- services -->
 											<li>
-												<a href="#">Departments</a>
+												<a href="#">Employment</a>
 											</li>
 											<!-- eof services -->
 
-											<!-- blog -->
+											<!-- services -->
+											
 											<li>
-												<a href="#">Blog</a>
+												<a href="#">Paying Fees</a>
 											</li>
-											<!-- eof blog -->
+											<!-- eof services -->
+
+											<li>
+												<a href="#">Q & A</a>
+											</li>
+											<!-- eof services -->
+											
+											<li>
+												<a href="#">Warranty</a>
+											</li>
+											<!-- eof services -->
 
 											<!-- contacts -->
 											<li>
 												<a href="#">Contact us</a>
-												
+											</li>
+											<!-- eof contacts -->
+											<li>
+												<a href="#">Book</a>
+											</li>
+											<!-- eof services -->
+
+											<!-- contacts -->
+											<li>
+												<a href="#">Camlinh Profile</a>
 											</li>
 											<!-- eof contacts -->
 										</ul>
@@ -131,22 +143,39 @@
 										<span></span>
 									</span>
 								</div>
-
-								<div class="col-md-3 text-right">
-
-									<div class="page_social greylinks">
-										<a href="#" class="social-icon soc-facebook"></a>
-										<a href="#" class="social-icon soc-twitter"></a>
-										<a href="#" class="social-icon soc-youtube"></a>
-										<a href="#" class="social-icon soc-google"></a>
-									</div>
-
-								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</header>
+
+			<!-- template sections -->
+			<section class="page_toplogo table_section table_section ls section_padding_20">
+				<div class="container">
+					<div class="row" style="margin-top: 50px;">
+						<div class="col-sm-3 animate__animated animate__fadeInLeft animate__delay-1s">
+							<a href="#" class="logo">
+								<h3>LOGO</h3>
+							</a>
+						</div>
+						<div class="col-sm-6 text-center text-sm-left contact-teaser animate__animated animate__fadeInDownBig animate__delay-1s">
+							<p class="yantramanov weight-black fontsize_25">Slogan Quisque at ultrices nisi. Nullam faucibus vestibulum interdum.</p>
+						</div>
+						<div class="col-sm-3 text-center text-sm-right contact-teaser animate__animated animate__fadeInRight animate__delay-1s">
+							<span class="small-text">Email us</span>
+							<p class="yantramanov weight-black fontsize_25 text-uppercase">contact@aba.us</p>
+							<div class="page-header" style="margin: 0;border: none;">
+								<div class="page_social greylinks">
+									<a href="#" class="social-icon soc-facebook"></a>
+									<a href="#" class="social-icon soc-twitter"></a>
+									<a href="#" class="social-icon soc-youtube"></a>
+									<a href="#" class="social-icon soc-google"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
 			<section class="intro_section page_mainslider">
 				<div class="flexslider">
@@ -912,7 +941,7 @@
 				</div>
 			</section>
 
-			<section class="ls ms section_padding_top_150 section_padding_bottom_120">
+			<!-- <section class="ls ms section_padding_top_150 section_padding_bottom_120">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-10">
@@ -1015,9 +1044,9 @@
 					</div>
 
 				</div>
-			</section>
+			</section> -->
 
-			<section class="ds ms section_padding_150 parallax page_testimonials columns_margin_0">
+			<!-- <section class="ds ms section_padding_150 parallax page_testimonials columns_margin_0">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-10 col-md-offset-1 text-center">
@@ -1048,7 +1077,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 
 			<section class="ls section_padding_25">
 				<div class="container">
